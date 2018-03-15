@@ -1,4 +1,4 @@
-function [y,x] = Adlet(f, x0, y0, b, N)
+function [y,x] = SimpleEuler(f, x0, y0, b, N)
 h = (b - x0)/N;
 x = x0 : h : b;
 y = zeros(size(x));
@@ -8,4 +8,3 @@ for k=1:N
 end
 x = x'; 
 y = y';
-end
