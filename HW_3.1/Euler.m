@@ -1,4 +1,4 @@
-function[x,y]=Euler(f,x0,b,y0,N)
+function[x,y]=Euler(f,x0,y0,b,N)
 h=(b-x0)/N
 x=x0:h:b
 y=zeros(size(x));
