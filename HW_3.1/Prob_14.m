@@ -9,9 +9,6 @@ g=@(x,u)1/(1+x.^2);
 y11=u1./x1;
 y12=u2./x2;
 y13=u3./x3;
-A=[y1,y11]
-B=[y2,y12]
-C=[y3,y13]
 plot(x1,y1)
 title('Yerkebulan Zhumagali 3.1 #14 : dy/dx-2y=1/(1+x^2)')
 hold on
