@@ -1,6 +1,6 @@
 f=@(x,y) 2*x^2+3*y^2-2
-%[x,y]=EulerM(f,2,1,0.05,3)
-[x,y]=EulerImproved(f,2,1,0.05,3)
+[x,y]=EulerM(f,2,1,0.05,3)
+%[x,y]=EulerImproved(f,2,1,0.05,3)
 %[x,y]=midpoint(f,2,1,0.05,3)
 %[x,y]=Runge_Kutta(f,2,1,0.05,3)
 plot(x,y)

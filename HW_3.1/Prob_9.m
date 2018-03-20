@@ -9,6 +9,7 @@ A=[y1,R1]
 B=[y2,R2]
 C=[y3,R3]
 plot(x1,y1)
+title('Yerkebulan Zhumagali 3.1 #9 : dy/dx=(2*x+1)/(5*y^4+1)')
 hold on
 plot(x2,y2)
 hold on

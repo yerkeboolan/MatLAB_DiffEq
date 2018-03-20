@@ -12,3 +12,18 @@ y13=u3.*exp(-3.*x3);
 A=[y1,y11]
 B=[y2,y12]
 C=[y3,y13]
+plot(x1,y1)
+title('Yerkebulan Zhumagali 3.1 #20 : dy/dx=x*y^2*(y+1)-3*y')
+hold on
+plot(x2,y2)
+hold on
+plot(x3,y3)
+err=abs(y11-y1);
+err1=abs(y12-y2);
+err2=abs(y13-y3);
+figure
+plot(x1,err)
+hold on
+plot(x2,err1)
+hold on
+plot(x3,err2)

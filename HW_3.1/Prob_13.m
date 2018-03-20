@@ -15,3 +15,19 @@ y23=exp(-3*x3).*u3;
 A=[y1,y11,y21]
 B=[y2,y12,y22]
 C=[y3,y13,y23]
+plot(x1,y1)
+title('Yerkebulan Zhumagali 3.1 #13 : dy/dx+3y=7exp(−3x)')
+hold on
+plot(x2,y2)
+hold on
+plot(x3,y3)
+err=abs(y11-y1);
+err1=abs(y12-y2);
+err2=abs(y13-y3);
+figure
+plot(x1,err)
+title('Yerkebulan Zhumagali 3.1 #13 : y=exp(−3x)*(7x + 6)')
+hold on
+plot(x2,err1)
+hold on
+plot(x3,err2)
